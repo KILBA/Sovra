@@ -237,6 +237,8 @@
       "@deepseek-ai/dsh-sdk-jsonrpc-server": ["./packages/sdk/server/src"],
       "@deepseek-ai/dsh-experimental-agent-team": ["./packages/experimental/agent-team/src"],
       "@deepseek-ai/dsh-experimental-tool-agent-team": ["./packages/experimental/tool-agent-team/src"],
+      "@mrpl/dsh-workbench-types": ["./workbench/packages/wb-types/src/index.ts"],
+      "@mrpl/dsh-workbench-artifacts": ["./workbench/packages/wb-artifacts/src/index.ts"],
       "@deepseek-ai/dsh-*": [
         "./packages/core/*/src",
         "./packages/prompt/*/src",
