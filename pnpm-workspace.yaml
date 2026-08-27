@@ -5,6 +5,7 @@ packages:
   # its native build and publication scripts under native/landlock-run.
   - native/landlock-run
   - native/landlock-run/packages/*
+  - workbench/packages/*
   # Product assemblies over the package tier; apps/cli owns the `dsh` bin.
   - apps/*
   - website
