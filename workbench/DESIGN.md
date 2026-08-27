@@ -923,3 +923,5 @@ around a gap.
 - *(none yet — first agent to hit a gap, add it here)*
 
 - **wb-audit (2026-08-26):** `wb/policy/decision` and `wb/ingestion/completed` event payloads lack `sessionId` and `userId` fields required by `WbAuditEntry`. Currently skipped during recording. Needs resolution before those event kinds can be audit-logged.
+
+- **wb-rag (2026-08-27):** §7 `WbRagRequest` lacks `agentPreset` and `sessionId` fields; `WbRagResult` lacks `filtered` (excluded chunks with policy-reason). Current implementation uses sentinels (`agentPreset: 'unknown'`, `sessionId: asWbSessionId('unknown')`) and `WbFilteredChunk[]` — proposed addition to §7 types in next revision.

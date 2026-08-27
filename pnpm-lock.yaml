@@ -9239,6 +9239,19 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/core/session
 
+  workbench/packages/wb-rag:
+    dependencies:
+      '@mrpl/dsh-workbench-types':
+        specifier: workspace:*
+        version: link:../wb-types
+    devDependencies:
+      '@deepseek-ai/cordis':
+        specifier: workspace:*
+        version: link:../../../vendor/cordis
+      vitest:
+        specifier: ^3.2.0
+        version: 3.2.7(@types/debug@4.1.13)(@types/node@26.1.2)(jiti@2.7.0)(jsdom@29.1.1)(lightningcss@1.32.0)(tsx@4.22.4)(yaml@2.9.0)
+
   workbench/packages/wb-types: {}
 
 packages:
