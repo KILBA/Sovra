@@ -1,0 +1,442 @@
+[33mcommit e076d0281f6070bca7ae9434c0a3352190f87cfc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: KILBA <kilba2077@gmail.com>
+Date:   Fri Aug 28 01:54:39 2026 +0530
+
+    Added wb-policy
+
+[33mcommit ad4aaebd06a5479579e43870ccc03e0bab229901[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: aaditralph <aaditralph@gmail.com>
+Date:   Fri Aug 28 00:36:28 2026 +0530
+
+    Added wb-identity plugin
+
+[33mcommit 65d3650c305521fa32137e804da0239719b3f9ac[m
+Author: aaditralph <aaditralph@gmail.com>
+Date:   Thu Aug 27 23:33:01 2026 +0530
+
+    Added wb-rag plugin
+
+[33mcommit fbaa4f808b23d40a61c5f9091a4d7999ba8bcaba[m
+Author: aaditralph <aaditralph@gmail.com>
+Date:   Thu Aug 27 22:56:54 2026 +0530
+
+    Added wb-artifacts plugin
+
+[33mcommit 845c34be5d33e4631949b78d655557e2564a6cc5[m
+Author: KILBA <kilba2077@gmail.com>
+Date:   Thu Aug 27 22:28:37 2026 +0530
+
+    wb-audit added
+
+[33mcommit b150a551b8d465e31e418e1b2eaf5e79bbb7d28e[m
+Merge: 272ffffddd aa6c361a97
+Author: imccyu <276526105+imccyu@users.noreply.github.com>
+Date:   Fri Aug 21 20:03:37 2026 +0800
+
+    Merge pull request #2908 from deepseek-harness/release/dsh-0.1.1-rc.2
+
+    release: dsh@0.1.1-rc.2
+
+[33mcommit aa6c361a972c8369148dea7380bb5c21c24e07ec[m
+Author: imccyu <cc.yu@deepseek.com>
+Date:   Fri Aug 21 19:48:58 2026 +0800
+
+    release(dsh): 0.1.1-rc.2
+
+[33mcommit 272ffffddd1efd541b7f5f5f16dfb2762dec69e5[m
+Merge: 577bb71418 d618bfebb4
+Author: CreatixChu <142372241+CreatixChu@users.noreply.github.com>
+Date:   Fri Aug 21 19:40:51 2026 +0800
+
+    Merge pull request #2676 from deepseek-harness/worktree/image-management-strategy
+
+    feat(attachment): add normalized image and Files API pipeline
+
+[33mcommit d618bfebb4411b5af36e4f9203bd0457a962d496[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Fri Aug 21 18:34:16 2026 +0800
+
+    fix(deepseek): decouple files and stream timeouts
+
+[33mcommit 1b389798dcab65d2a29f673aa25ab4e68ca7876f[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Fri Aug 21 18:14:22 2026 +0800
+
+    fix(llm-deepseek): fall back when Files resolution fails
+
+[33mcommit e30d92a03e990ad4f92863b72061a363af0269b4[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Fri Aug 21 17:27:08 2026 +0800
+
+    fix(attachment): accept opaque WebP alpha omission
+
+[33mcommit d4b24b514859e5148bbea009b9323ee043a8ae12[m
+Merge: 6816cc0b04 577bb71418
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Fri Aug 21 16:55:00 2026 +0800
+
+    Merge remote-tracking branch 'origin/master' into worktree/image-management-strategy
+
+[33mcommit 577bb714188b375adc6527e19be1178b2f35318f[m
+Merge: 528c682e06 32f3c09c26
+Author: imccyu <276526105+imccyu@users.noreply.github.com>
+Date:   Fri Aug 21 16:53:49 2026 +0800
+
+    Merge pull request #2903 from deepseek-harness/worktree-revert-2608
+
+    revert: undo #2608 permission labels and blank defaults
+
+[33mcommit 32f3c09c267006039e4343acd9d064d796c869e3[m
+Author: imccyu <276526105+imccyu@users.noreply.github.com>
+Date:   Fri Aug 21 16:41:11 2026 +0800
+
+    test: sync reverted permission snapshot
+
+[33mcommit 7ce85283b5af14837fc4447f63684b9c6bb7dc55[m
+Author: imccyu <276526105+imccyu@users.noreply.github.com>
+Date:   Fri Aug 21 16:21:13 2026 +0800
+
+    Revert "Merge pull request #2608 from deepseek-harness/fix/permission-copy-and-default"
+
+    This reverts commit d51f4106a2b0669d33e0f5dc1d5dcf21a764d313, reversing
+    changes made to 69ace51625b6ac665b2f2ec1e81005d5b055f152.
+
+[33mcommit 6816cc0b04b95a874d2686fa2fd390c38828a737[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Fri Aug 21 15:25:27 2026 +0800
+
+    test(snapshot): stabilize persisted-turn coverage
+
+[33mcommit 6a27286e440d96d30916dd77bffa133e00f0d665[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Fri Aug 21 15:09:14 2026 +0800
+
+    docs(i18n): fix rebased image note links
+
+[33mcommit cbc830adeddf67c707168041cf9cdbb21e9b55a0[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Fri Aug 21 13:35:20 2026 +0800
+
+    test(composition): remove retired image-region tool
+
+[33mcommit 2491e12fd81f0bcd0d8ed18f28878a5742cd1897[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Fri Aug 21 13:19:50 2026 +0800
+
+    refactor(attachment): normalize image storage API
+
+[33mcommit 724783b02480e0e926e17f00d92c59f1b59228f6[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Fri Aug 21 12:30:47 2026 +0800
+
+    refactor(image): remove region reads
+
+[33mcommit 0c9a664223060fc9dbcb22557f9b32e0680f5507[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 22:05:39 2026 +0800
+
+    test(deepseek): print vision failure facts
+
+[33mcommit 703ce4a3d626c2225bd85743c8a11495e4fa2a3c[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 22:00:06 2026 +0800
+
+    test(deepseek): expose Files API e2e failures
+
+[33mcommit d65e2a9e8ada278607cbf3be6a078a51d652c337[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 21:46:59 2026 +0800
+
+    test(images): close unified pipeline coverage gaps
+
+[33mcommit 72b204afa1753324430df36aab2c6ae29e952510[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 20:32:50 2026 +0800
+
+    feat(images): expand source upload envelope
+
+[33mcommit 657ec56fbfc26cc03ae27e033f75f148796fd86c[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 20:25:35 2026 +0800
+
+    test(images): cover attachment projection edges
+
+[33mcommit 48a58b90904babd586eb5b63dc58d5d2307400ef[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 20:01:43 2026 +0800
+
+    fix(images): address unified pipeline review
+
+[33mcommit de8ea5d715ba2dc402b02765832b3bda6453a78a[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 18:52:42 2026 +0800
+
+    docs: refresh image pipeline module graph
+
+[33mcommit c09a42ccb51d136e214241164ebd2f91a9419ba9[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 18:44:40 2026 +0800
+
+    fix(images): parse listed missing Files ids
+
+[33mcommit c0dd8ec820cd5abd5be0345f750b957a1e926ac5[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 18:25:37 2026 +0800
+
+    chore(images): align merged runtime closure
+
+[33mcommit d29855f97c406893a4167d74a53db521ab8b308b[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 18:19:23 2026 +0800
+
+    feat(images): unify master and Files request pipeline
+
+[33mcommit c1bdac69398c624cce8f87f67cdbd74ba61667f3[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 14:55:31 2026 +0800
+
+    docs: propose attachment read quarantine
+
+[33mcommit 118f244420de3bc43ae02a440e5f74e3395b858d[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 12:08:37 2026 +0800
+
+    fix(attachment-local): exclude metadata carriers and animation from passthrough; validate the canonical budget up front
+
+    Review-round hardening of canonical admission:
+    - passthrough now requires a single-frame source free of EXIF/XMP/IPTC
+      metadata, so location/device metadata never enters durable storage and
+      stored dimensions always describe the perceived pixels; animated WebP joins
+      GIF on the always-re-encode path (first frame only)
+    - SourceImageInfo records orientation-applied dimensions, keeping source and
+      stored raster on shared axes for coordinate mapping
+    - validateImage runs a canonical-encoding dry run, so a validated batch can no
+      longer be refused mid-write by the byte target (no partial writes)
+    - read_image names per-axis multipliers when rounding splits the two ratios
+      and maps IMAGE_TOO_LARGE to actionable downscale guidance
+
+[33mcommit c90a944abda6f54d6fc25378d4b820ca0ec630d8[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 11:30:05 2026 +0800
+
+    docs: bring the zh config catalog along; pin read_image source fields in the code-mode prompt sidecar
+
+[33mcommit 867dc446976a9277e41f5f0b9f60c50697e8d4f6[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 11:23:32 2026 +0800
+
+    docs(notes): record the canonical image admission decision
+
+[33mcommit fec8aa62dfccfbb6bf9ba607e77672b36c80fce5[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 11:22:01 2026 +0800
+
+    docs(attachment): document canonical admission; pin wide-image acceptance snapshot
+
+    READMEs (both languages) describe the wide source envelope, the canonical
+    encoding and its fixed encoder parameters, and read_image's downscale
+    envelope; tool/config catalogs regenerate for the new schema and Config
+    fields. The read-image-dimension scenario now pins the acceptance the old
+    2000px admission cap refused: the 2001x1 source is admitted and stored
+    byte-identically, so the fixture stays platform-independent.
+
+[33mcommit c6fa512e1581913ca1c4b3c2ed2364d3210176a9[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 11:22:00 2026 +0800
+
+    fix(attachment-local): keep reference field order stable for logged fixtures
+
+    The canonical ref serializes mediaType, width, height, bytes in the order the
+    pre-canonicalization store used, so existing session-log fixtures and logged
+    histories keep byte-identical reference JSON.
+
+[33mcommit 6e17c20804cd5c0c59d0f9658f81febbaceb4077[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 10:59:14 2026 +0800
+
+    feat(tool-fs): read_image reports downscaled dimensions and coordinate scale
+
+    When the attachment store's canonical encoding shrinks the file on disk, the
+    read_image envelope names the original dimensions and the multiplier that
+    maps coordinates measured on the attached image back onto the file, and the
+    output schema carries sourceWidth/sourceHeight for programmatic callers.
+
+[33mcommit 83a526eea1342f3be36c54554b43f8b98ca6c87d[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 10:57:39 2026 +0800
+
+    feat(attachment-local): store a deterministic canonical image encoding
+
+    Admission now validates a wide source envelope (32MiB, 100MP, 16384px per
+    side) and persists a canonical encoding instead of refusing large sources:
+    EXIF orientation baked in, metadata stripped, long edge downscaled to the
+    configured canonical target (default 2048px), PNG palette for alpha/PNG/GIF
+    sources and a fixed JPEG quality ladder (85/75/60/45) until the canonical
+    byte target holds (default 1MiB). In-budget PNG/JPEG/WebP passes through
+    byte-identically so equal sources keep deduplicating to the same content
+    address; GIF always re-encodes to the PNG of its first frame, pinning the
+    first-frame meaning providers apply. Encoder parameters are fixed by design;
+    only the canonical budget is deployment configuration.
+
+[33mcommit 8f83853b601b29286e10c7668dc19b8230e30463[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Thu Aug 20 10:56:49 2026 +0800
+
+    refactor(attachment): saveImage returns the canonical ref beside source facts
+
+    AttachmentStore.saveImage now resolves SavedImageAttachment: the durable
+    reference paired with the submitted raster's intrinsic facts, so a store may
+    persist a canonical re-encoding while callers keep the source dimensions for
+    coordinate mapping. saveImages keeps returning refs; every fake store and the
+    cordis API catalog follow the new signature.
+
+[33mcommit 92a9741050a8f9b4dcfc753263befa04bc029abb[m
+Author: creatixchu <creatixchu@deepseek.com>
+Date:   Tue Aug 18 14:04:50 2026 +0800
+
+    docs(llm): anchor unified request-image management design PR
+
+[33mcommit 528c682e061696f5a160f363f236ecbf53cbd006[m
+Merge: f4b080ffe0 3ec5e8f8c4
+Author: imccyu <276526105+imccyu@users.noreply.github.com>
+Date:   Fri Aug 21 14:21:44 2026 +0800
+
+    Merge pull request #2890 from deepseek-harness/release/dsh-0.1.1-rc.1
+
+    release: dsh@0.1.1-rc.1
+
+[33mcommit 3ec5e8f8c43e23e9c3f58843786db3f37d1272ae[m
+Author: imccyu <cc.yu@deepseek.com>
+Date:   Fri Aug 21 13:25:41 2026 +0800
+
+    release(dsh): 0.1.1-rc.1
+
+[33mcommit 60e44b2d782eaefda9187289a96ccf4aa1946c82[m
+Author: imccyu <cc.yu@deepseek.com>
+Date:   Fri Aug 21 13:35:31 2026 +0800
+
+    fix: ci
+
+    fix: ci
+
+    fix: ci
+
+[33mcommit f4b080ffe09e3a2311ab93016f4421fce2d3f993[m
+Merge: b7135e6206 fa3e37982b
+Author: Yichen Jiang <jyc132780208@sina.com>
+Date:   Fri Aug 21 13:58:57 2026 +0800
+
+    Merge pull request #2889 from deepseek-harness/worktree/docs-ci-release-control-66e8d2
+
+    ci(docs): 文档站改为从发布 tag 发布
+
+[33mcommit fa3e37982b352df7ff383b139bd4d4818799416f[m
+Author: Yichen Jiang <jyc132780208@sina.com>
+Date:   Fri Aug 21 13:17:06 2026 +0800
+
+    ci(docs): publish the documentation site from a release tag
+
+    The documentation site deployed on every master push, with no reviewer and
+    no version check, while npm, PyPI, and the public source repository all
+    advance only at a release tag. The Pages site is reachable without
+    authentication, so a merge published documentation ahead of every artifact
+    readers could obtain.
+
+    docs-pages.yml now declares workflow_dispatch alone and verifies the ref
+    through the gate npm publication already runs, so the site and the npm
+    sequence share one definition of a released version.
+
+[33mcommit b7135e620674ef022a26a1d2cc87b79668790e7a[m
+Merge: b70f27f764 03d1dead79
+Author: Chinesezjc <jczhai@deepseek.com>
+Date:   Fri Aug 21 12:59:07 2026 +0800
+
+    Merge pull request #2760 from deepseek-harness/fix/continuation-cleanup-temp-handles
+
+    test(subagent): close persistence handle before deleting temp root
+
+[33mcommit b70f27f764e014287faef04858e00822c4d138f2[m
+Merge: d72713c1b3 36a10618df
+Author: _Kerman <kermanx@qq.com>
+Date:   Fri Aug 21 12:36:36 2026 +0800
+
+    Merge pull request #2739 from deepseek-harness/xtr/speed-up-doc-sync
+
+    perf(infra): shorten doc-sync critical path
+
+[33mcommit d72713c1b3cadcc0651b07c77b05b55cd103c104[m
+Merge: a760c0b0f6 0ee3d664ba
+Author: _Kerman <kermanx@qq.com>
+Date:   Fri Aug 21 12:35:16 2026 +0800
+
+    Merge pull request #2702 from deepseek-harness/xtr/2701-stable-session-snapshots
+
+    test: omit persistence envelopes from session snapshots
+
+[33mcommit a760c0b0f63ff633aab3730833c4f29c6a85c704[m
+Merge: d508a09952 68d24f3237
+Author: Yichen Jiang <jyc132780208@sina.com>
+Date:   Fri Aug 21 12:27:51 2026 +0800
+
+    Merge pull request #2847 from deepseek-harness/feat/2846-doc-site-md-projection
+
+    docs(website): serve every page as raw Markdown with an llms.txt index
+
+[33mcommit 36a10618df3319da38a7552652d012ca83bc7f5d[m
+Merge: d0d5b00095 d508a09952
+Author: _Kerman <kermanx@qq.com>
+Date:   Fri Aug 21 12:01:02 2026 +0800
+
+    Merge remote-tracking branch 'origin/master' into dshw/pr-deepseek-harness-deepseek-harness-2739
+
+    # Conflicts:
+    #       scripts/run-gates.spec.ts
+
+[33mcommit 0ee3d664ba3c2024bca5c6c0af2a648dba4e0eda[m
+Merge: 6fb8e9a4b9 d508a09952
+Author: _Kerman <kermanx@qq.com>
+Date:   Fri Aug 21 11:53:00 2026 +0800
+
+    Merge remote-tracking branch 'origin/master' into dshw/pr-deepseek-harness-deepseek-harness-2702
+
+[33mcommit d508a09952ac4b39577d644d55befbcdead2190f[m
+Merge: e637bcfb98 4b086d0a4a
+Author: imccyu <276526105+imccyu@users.noreply.github.com>
+Date:   Fri Aug 21 11:48:18 2026 +0800
+
+    Merge pull request #2878 from deepseek-harness/worktree-fixpnpmwin
+
+    fix(build): support standalone pnpm entrypoints
+
+[33mcommit 6fb8e9a4b9367de001c23d3b6900d43502104e70[m
+Merge: a577a48acd 0e40664c67
+Author: _Kerman <kermanx@qq.com>
+Date:   Fri Aug 21 11:43:58 2026 +0800
+
+    Merge remote-tracking branch 'origin/master' into xtr/2701-stable-session-snapshots
+
+[33mcommit e637bcfb985850e90710c0d67bc29c748eb13a77[m
+Merge: 0e40664c67 708a25a8a9
+Author: Yichen Jiang <jyc132780208@sina.com>
+Date:   Fri Aug 21 11:41:34 2026 +0800
+
+    Merge pull request #2726 from deepseek-harness/worktree/deepseek-vision-model-catalog
+
+    feat(llm-deepseek): publish the vision model
+
+[33mcommit 4b086d0a4a9fb5fd2ce3dc883a59b9ec59474a09[m
+Author: imccyu <276526105+imccyu@users.noreply.github.com>
+Date:   Fri Aug 21 11:36:57 2026 +0800
+
+    test(ci): deduplicate coverage command setup
+
+[33mcommit d0d5b00095574453c4c1bdadc29e420154370263[m
+Merge: f281933dde 0e40664c67
+Author: _Kerman <kermanx@qq.com>
+Date:   Fri Aug 21 11:35:58 2026 +0800
+
+    Merge remote-tracking branch 'origin/master' into dshw/pr-deepseek-harness-deepseek-harness-2739
+
+    # Conflicts:
+    #       .agents/notes/implemented/process/2026-07-06-parallel-pre-push-gates.i18n.yaml
+    #       .agents/notes/implemented/process/2026-07-13-documentation-site-projection.i18n.yaml
