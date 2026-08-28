@@ -927,3 +927,21 @@ around a gap.
 - **wb-rag (2026-08-27):** §7 `WbRagRequest` lacks `agentPreset` and `sessionId` fields; `WbRagResult` lacks `filtered` (excluded chunks with policy-reason). Current implementation uses sentinels (`agentPreset: 'unknown'`, `sessionId: asWbSessionId('unknown')`) and `WbFilteredChunk[]` — proposed addition to §7 types in next revision.
 
 - **wb-identity (2026-08-28):** The harness has no authenticated identity concept. `ctx.identity` does not exist; `packages/identity/anonymous-user-id` is a random telemetry UUID only. `wb-identity` defines the `SessionPrincipalProvider` extension point so deployments can inject their own principal resolution logic, but there is no default implementation that extracts a principal from an authenticated context. This is a genuine gap: either the harness gains an `identity` capability, or a future plugin provides a bridge. For now, tests use inline `SessionPrincipalProvider` implementations; real deployments must supply their own.
+
+- **wb-ingestion (2026-08-28):** §7 `WbPolicyRequest.action` has no variant for "ingest/upload document." The listed actions (`send_data`, `read_data`, `invoke_tool`, `model_request`) do not cleanly map to ingestion — `send_data` implies egress, not local document processing. `wb-ingestion` lists `wb-policy` as a dependency (§6 row 8) but cannot call `ctx.wbPolicy.evaluate()` without a valid action. Either add an `ingest_document` action to §7.2, or bless `send_data`/`local` as the intended mapping and document the semantic. `wb-ingestion` injects `wbPolicy` for forward-compatibility but does not call it until this is resolved.
+
+- **wb-ingestion (2026-08-28):** §7 lacks a frozen `IndexChunk` type for the JSONL vector index format shared between `wb-ingestion` (writer) and `wb-rag` (reader). Both plugins must agree on the shape. Proposed addition to §7.2:
+
+  ```ts
+  export interface IndexChunk {
+    text: string
+    documentId: WbDocumentId
+    title: string
+    page?: number
+    section?: string
+    classification: WbClassification
+    embedding: number[]
+  }
+  ```
+
+  Currently defined in `wb-ingestion/src/types.ts` and documented in its README. Should be promoted to §7.2 so both plugins compile against the same frozen definition.
